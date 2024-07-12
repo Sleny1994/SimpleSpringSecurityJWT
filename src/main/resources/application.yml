@@ -1,0 +1,13 @@
+# Tomcat
+server:
+    tomcat:
+      uri-encoding: UTF-8
+      threads:
+        max: 1000
+        min-spare: 30
+    port: 8080
+
+# JWT
+jwt:
+    expire: 3600
+    secret: F0cBT8HpEc0pJ5Ycj56zNG3sQMZisPYX
